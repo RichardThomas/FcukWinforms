@@ -35,6 +35,11 @@ namespace FcukWinforms
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Gets an order from the AS400 or from SQL, depending on setting of chkUseThisParm
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnFetchOrder_Click(object sender, EventArgs e)
         {
             try
